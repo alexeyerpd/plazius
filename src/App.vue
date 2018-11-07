@@ -738,7 +738,7 @@
                         </div>
                     </div>
                     <div class="ftr__links-block">
-                        <ul class="ftr__link-list list">
+                        <ul class="ftr__link-list">
                             <li class="ftr__link-item"><a href="" class="ftr__link">Jobs</a></li>
                             <li class="ftr__link-item"><a href="" class="ftr__link">The list of artists</a></li>
                             <li class="ftr__link-item"><a href="" class="ftr__link">Feedback</a></li>
