@@ -398,21 +398,25 @@
                             <div class="box">
                                 <select name="" id="" class="select" >
                                     <option value="Russia" selected>Russia</option>
+                                    <option value="USA">USA</option>
                                 </select>
                             </div>
                             <div class="box">
                                 <select name="" id="" class="select" >
                                     <option value="English" selected>English</option>
+                                    <option value="Deutsch">Deutsch</option>
                                 </select>
                             </div>
                             <div class="box">
                                 <select name="" id="" class="select" >
                                     <option value="EUR" selected>EUR</option>
+                                    <option value="USD">USD</option>
                                 </select>
                             </div>
                             <div class="box">
                                 <select name="" id="" class="select" >
                                     <option value="Centimetres" selected>Centimetres</option>
+                                    <option value="Micrometers">Micrometers</option>
                                 </select>
                             </div>
                         </div>
