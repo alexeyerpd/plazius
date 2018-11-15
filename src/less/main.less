@@ -114,8 +114,9 @@ input{ user-select:none; }
         }
     }        
     
-    .widget{ position:absolute; top:191px; right:0; overflow:hidden;
-        &-box{ position:relative; right:-50px; display:block; .square(150px); background-color:#7365ff; border-radius:50%;
+    .widget{ position:absolute; top:150px; right:0; padding:40px 0 40px 40px; overflow:hidden;
+        &-box{ position:relative; right:-50px; display:block; .square(150px);
+            &:before{ content:''; .center(); background-color:#7365ff; border-radius:50%; .transition(); }
             .title{ position:absolute; top:32px; left:31px; max-width:50%; color: #ffffff; font: bold 16px/16px "Rubik"; text-transform: uppercase; }
             .item{ position:absolute; .square(39px); ;
                 &-first{ top:78px; left:14px; }
@@ -124,8 +125,8 @@ input{ user-select:none; }
                 }
             }
             .image{ display:block; width:100%; border-radius:50%; }
+            &:hover:before{ transform:scale(1.2); box-shadow:0 2px 8px rgba(0,0,0,.3); }
         }
-        &:hover .widget-box{ right:0; } 
         .md({ display:none; })
         
         
