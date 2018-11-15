@@ -32,7 +32,8 @@
                                     </a>
                                 </div>
                                 <div class="login-box">
-                                    <a href="#" class="item join">Join</a> <a href="#" class="item sign-in">Sign in</a>
+                                    <a href="#" class="join">Join</a> 
+                                    <a href="#" class="sign-in">Sign in</a>
                                 </div>
                             </nav>
                         </div>
@@ -59,7 +60,8 @@
                         </nav>
 
                         <div class="login">
-                            <a href="#" class="join">Join</a> <a href="#" class="sign-in">Sign in</a>
+                            <a href="#" class="join">Join</a> 
+                            <a href="#" class="sign-in">Sign in</a>
                         </div>
                     </menu>
                 </div>
