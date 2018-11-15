@@ -15,17 +15,21 @@
                                     <a href="#" class="item">
                                         <span class="quantity">1045</span>
                                         <span class="name">Digest</span>
-                                    </a> <a href="#" class="item">
-                                    <span class="quantity">235</span>
-                                    <span class="name">Artists</span>
-                                </a> <a href="#" class="item">
-                                    <span class="quantity">831</span>
-                                    <span class="name">Gallery</span>
-                                </a> <a href="#" class="item">
-                                    <span class="name">About</span>
-                                </a> <a href="#" class="item">
-                                    <span class="name">Events</span>
-                                </a>
+                                    </a> 
+                                    <a href="#" class="item">
+                                        <span class="quantity">235</span>
+                                        <span class="name">Artists</span>
+                                    </a> 
+                                    <a href="#" class="item">
+                                        <span class="quantity">831</span>
+                                        <span class="name">Gallery</span>
+                                    </a> 
+                                    <a href="#" class="item">
+                                        <span class="name">About</span>
+                                    </a> 
+                                    <a href="#" class="item">
+                                        <span class="name">Events</span>
+                                    </a>
                                 </div>
                                 <div class="login-box">
                                     <a href="#" class="item join">Join</a> <a href="#" class="item sign-in">Sign in</a>
@@ -37,17 +41,21 @@
                             <a href="#" class="link">
                                 <span class="link-name">Digest</span>
                                 <span class="link-quantity">1045</span>
-                            </a> <a href="#" class="link">
-                            <span class="link-name">Artists</span>
-                            <span class="link-quantity">235</span>
-                        </a> <a href="#" class="link">
-                            <span class="link-name">Gallery</span>
-                            <span class="link-quantity">831</span>
-                        </a> <a href="#" class="link">
-                            <span class="link-name">About</span>
-                        </a> <a href="#" class="link">
-                            <span class="link-name">Events</span>
-                        </a>
+                            </a> 
+                            <a href="#" class="link">
+                                <span class="link-name">Artists</span>
+                                <span class="link-quantity">235</span>
+                            </a> 
+                            <a href="#" class="link">
+                                <span class="link-name">Gallery</span>
+                                <span class="link-quantity">831</span>
+                            </a> 
+                            <a href="#" class="link">
+                                <span class="link-name">About</span>
+                            </a> 
+                            <a href="#" class="link">
+                                <span class="link-name">Events</span>
+                            </a>
                         </nav>
 
                         <div class="login">
