@@ -208,9 +208,8 @@ input{ user-select:none; }
         .box{ position:relative; z-index:5; width:100%/2; 
             &:before{ content:''; position:absolute; top:12.3%; right:0; bottom:13%; left:0;  background:#E7E7E7; }
             .image{ position:relative; display:block; width:100%; }
-            .button{ position:absolute; top:50%; left:50%; padding:3.5% 13%; transform:translate(-50%, -50%); background:#54EFB6; border-radius:50px; color:#022e48; font:bold 18px/25px "Rubik"; text-transform:uppercase; white-space:nowrap; cursor:pointer;
-                &:hover,
-                &:focus{ border:2px solid @selectColor; }
+            .button{ position:absolute; top:50%; left:50%; padding:3.5% 13%; transform:translate(-50%, -50%); background:#54EFB6; border-radius:50px; color:#022e48; font:bold 18px/25px "Rubik"; text-transform:uppercase; white-space:nowrap; cursor:pointer; .transition();
+                &:hover{ box-shadow:0 0 0 3px @selectColor; }
                 &:active{ box-shadow:inset 1px 2px 4px @selectColor, inset -1px -2px 4px @selectColor;}
             }
             .sm({ width:100%; });
