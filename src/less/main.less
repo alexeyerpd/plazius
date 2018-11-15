@@ -141,14 +141,15 @@ input{ user-select:none; }
             p{ max-width:280px; margin-bottom:67px; font:bold 16px/22px "Roboto";  }
         }
         .menu{ display:flex;
-            &-box{ position:relative; width:14.3%; text-align:center;
-                .image{ display:block; width:100%; }
-                .title{ position:absolute; right:0; bottom:0; left:0; color:#ffffff;  font:bold 14px/60px "Rubik"; text-transform:uppercase;
+            a{ position:relative; width:100% / 7; text-align:center; .transition();
+                img{ display:block; width:100%; .transition(); }
+                span{ position:absolute; right:0; bottom:0; left:0; color:#fff; font:bold 14px/60px "Rubik"; text-transform:uppercase;
                     .md({ font-size:12px; line-height:50px; });
                     .xs({ font-size:10px; line-height:40px; });
                 };
-                &:hover,
-                &:focus{ z-index:1; transform:scale(1.1); box-shadow: 0 0 5px 1px #000000; }
+                &:hover{ z-index:1; 
+                    img{ transform:scale(1.1); box-shadow: 0 2px 8px rgba(0,0,0,.3); }
+                }
                 .sm({ width:100%/3; });
             }          
             .sm({ flex-wrap:wrap; justify-content:center; });

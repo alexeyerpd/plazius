@@ -85,27 +85,34 @@
                     </div>
 
                     <div class="menu">
-                        <a class="menu-box" href="#Paintings">
-                            <img class='image' src="./img/paintings.png" alt="Paintings">
-                            <h2 class="title">Paintings</h2>
-                        </a> <a class="menu-box" href="#Prints"> <img class='image' src="./img/prints.png" alt="Prints">
-                        <h2 class="title">Prints</h2>
-                    </a> <a class="menu-box" href="#Photographs">
-                        <img class='image' src="./img/photographs.png" alt="Photographs">
-                        <h2 class="title">Photographs</h2>
-                    </a> <a class="menu-box" href="#Sculptures">
-                        <img class='image' src="./img/sculptures.png" alt="Sculptures">
-                        <h2 class="title">Sculptures</h2>
-                    </a> <a class="menu-box" href="#Drawings">
-                        <img class='image' src="./img/drawings.png" alt="Drawings">
-                        <h2 class="title">Drawings</h2>
-                    </a> <a class="menu-box" href="#Collages">
-                        <img class='image' src="./img/collages.png" alt="Collages">
-                        <h2 class="title">Collages</h2>
-                    </a> <a class="menu-box" href="#Digital-Art">
-                        <img class='image' src="./img/digital-art.png" alt="Digital Art">
-                        <h2 class="title">Digital Art</h2>
-                    </a>
+                        <a href="#Paintings">
+                            <img src="./img/paintings.png" alt="Paintings">
+                            <span>Paintings</span>
+                        </a> 
+                        <a href="#Prints"> 
+                            <img src="./img/prints.png" alt="Prints">
+                            <span>Prints</span>
+                        </a> 
+                        <a href="#Photographs">
+                            <img src="./img/photographs.png" alt="Photographs">
+                            <span>Photographs</span>
+                        </a> 
+                        <a href="#Sculptures">
+                            <img src="./img/sculptures.png" alt="Sculptures">
+                            <span>Sculptures</span>
+                        </a> 
+                        <a href="#Drawings">
+                            <img src="./img/drawings.png" alt="Drawings">
+                            <span>Drawings</span>
+                        </a> 
+                        <a href="#Collages">
+                            <img src="./img/collages.png" alt="Collages">
+                            <span>Collages</span>
+                        </a> 
+                        <a href="#Digital-Art">
+                            <img src="./img/digital-art.png" alt="Digital Art">
+                            <span>Digital Art</span>
+                        </a>
                     </div>
                 </div>
             </header>
