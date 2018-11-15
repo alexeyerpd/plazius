@@ -114,8 +114,9 @@ input{ user-select:none; }
         }
     }        
     
-    .widget{ position:absolute; top:191px; right:0; overflow:hidden;
-        &-box{ position:relative; right:-50px; display:block; .square(150px); background-color:#7365ff; border-radius:50%;
+    .widget{ position:absolute; top:150px; right:0; padding:40px 0 40px 40px; overflow:hidden;
+        &-box{ position:relative; right:-50px; display:block; .square(150px);
+            &:before{ content:''; .center(); background-color:#7365ff; border-radius:50%; .transition(); }
             .title{ position:absolute; top:32px; left:31px; max-width:50%; color: #ffffff; font: bold 16px/16px "Rubik"; text-transform: uppercase; }
             .item{ position:absolute; .square(39px); ;
                 &-first{ top:78px; left:14px; }
@@ -124,8 +125,8 @@ input{ user-select:none; }
                 }
             }
             .image{ display:block; width:100%; border-radius:50%; }
+            &:hover:before{ transform:scale(1.2); box-shadow:0 2px 8px rgba(0,0,0,.3); }
         }
-        &:hover .widget-box{ right:0; } 
         .md({ display:none; })
         
         
@@ -140,14 +141,15 @@ input{ user-select:none; }
             p{ max-width:280px; margin-bottom:67px; font:bold 16px/22px "Roboto";  }
         }
         .menu{ display:flex;
-            &-box{ position:relative; width:14.3%; text-align:center;
-                .image{ display:block; width:100%; }
-                .title{ position:absolute; right:0; bottom:0; left:0; color:#ffffff;  font:bold 14px/60px "Rubik"; text-transform:uppercase;
+            a{ position:relative; width:100% / 7; text-align:center; .transition();
+                img{ display:block; width:100%; .transition(); }
+                span{ position:absolute; right:0; bottom:0; left:0; color:#fff; font:bold 14px/60px "Rubik"; text-transform:uppercase;
                     .md({ font-size:12px; line-height:50px; });
                     .xs({ font-size:10px; line-height:40px; });
                 };
-                &:hover,
-                &:focus{ z-index:1; transform:scale(1.1); box-shadow: 0 0 5px 1px #000000; }
+                &:hover{ z-index:1; 
+                    img{ transform:scale(1.1); box-shadow: 0 2px 8px rgba(0,0,0,.3); }
+                }
                 .sm({ width:100%/3; });
             }          
             .sm({ flex-wrap:wrap; justify-content:center; });
@@ -206,9 +208,8 @@ input{ user-select:none; }
         .box{ position:relative; z-index:5; width:100%/2; 
             &:before{ content:''; position:absolute; top:12.3%; right:0; bottom:13%; left:0;  background:#E7E7E7; }
             .image{ position:relative; display:block; width:100%; }
-            .button{ position:absolute; top:50%; left:50%; padding:3.5% 13%; transform:translate(-50%, -50%); background:#54EFB6; border-radius:50px; color:#022e48; font:bold 18px/25px "Rubik"; text-transform:uppercase; white-space:nowrap; cursor:pointer;
-                &:hover,
-                &:focus{ border:2px solid @selectColor; }
+            .button{ position:absolute; top:50%; left:50%; padding:3.5% 13%; transform:translate(-50%, -50%); background:#54EFB6; border-radius:50px; color:#022e48; font:bold 18px/25px "Rubik"; text-transform:uppercase; white-space:nowrap; cursor:pointer; .transition();
+                &:hover{ box-shadow:0 0 0 3px @selectColor; }
                 &:active{ box-shadow:inset 1px 2px 4px @selectColor, inset -1px -2px 4px @selectColor;}
             }
             .sm({ width:100%; });
