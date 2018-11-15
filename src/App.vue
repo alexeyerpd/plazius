@@ -86,25 +86,25 @@
 
                     <div class="menu">
                         <a class="menu-box" href="#Paintings">
-                            <img class='image' src="./img/paintings.png" alt="Paintings">
-                            <h2 class="title">Paintings</h2>
-                        </a> <a class="menu-box" href="#Prints"> <img class='image' src="./img/prints.png" alt="Prints">
-                        <h2 class="title">Prints</h2>
+                            <img class='image' src="/static/img/paintings.png" alt="Paintings">
+                            <span class="title">Paintings</span>
+                        </a> <a class="menu-box" href="#Prints"> <img class='image' src="/static/img/prints.png" alt="Prints">
+                        <span class="title">Prints</span>
                     </a> <a class="menu-box" href="#Photographs">
-                        <img class='image' src="./img/photographs.png" alt="Photographs">
-                        <h2 class="title">Photographs</h2>
+                        <img class='image' src="/static/img/photographs.png" alt="Photographs">
+                        <span class="title">Photographs</span>
                     </a> <a class="menu-box" href="#Sculptures">
-                        <img class='image' src="./img/sculptures.png" alt="Sculptures">
-                        <h2 class="title">Sculptures</h2>
+                        <img class='image' src="/static/img/sculptures.png" alt="Sculptures">
+                        <span class="title">Sculptures</span>
                     </a> <a class="menu-box" href="#Drawings">
-                        <img class='image' src="./img/drawings.png" alt="Drawings">
-                        <h2 class="title">Drawings</h2>
+                        <img class='image' src="/static/img/drawings.png" alt="Drawings">
+                        <span class="title">Drawings</span>
                     </a> <a class="menu-box" href="#Collages">
-                        <img class='image' src="./img/collages.png" alt="Collages">
-                        <h2 class="title">Collages</h2>
+                        <img class='image' src="/static/img/collages.png" alt="Collages">
+                        <span class="title">Collages</span>
                     </a> <a class="menu-box" href="#Digital-Art">
-                        <img class='image' src="./img/digital-art.png" alt="Digital Art">
-                        <h2 class="title">Digital Art</h2>
+                        <img class='image' src="/static/img/digital-art.png" alt="Digital Art">
+                        <span class="title">Digital Art</span>
                     </a>
                     </div>
                 </div>
@@ -320,11 +320,11 @@
 
                 <section class="select">
                     <div class="box">
-                        <img src="./img/bg.png" alt="Field" class="image">
+                        <img src="/static/img/bg.png" alt="Field" class="image">
                         <button class="button">Are You An Artist?</button>
                     </div>
                     <div class="box">
-                        <img src="./img/bg.png" alt="Field" class="image">
+                        <img src="/static/img/bg.png" alt="Field" class="image">
                         <button class="button">Are you a buyer?</button>
                     </div>
                 </section>
@@ -482,9 +482,9 @@
 </template>
 
 <script>
-    export default {
-        name: "app"
-    };
+export default {
+  name: "app"
+};
 </script>
 
 <style src="./less/main.less" lang="less"></style>
