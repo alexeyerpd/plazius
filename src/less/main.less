@@ -11,7 +11,7 @@ input{ user-select:none; }
 
 
 .header{ position:relative; z-index:6; margin-bottom:229px; padding-top:80px;
-    &:before{ content:''; position:absolute; top:0; right:0; bottom:0; left:0; z-index:-3; background:url('../img/background.png') 0 0/cover no-repeat transparent; }
+    &:before{ content:''; position:absolute; top:0; right:0; bottom:0; left:0; z-index:-3; background:url('/static/img/background.png') 0 0/cover no-repeat transparent; }
     &:after{ content:""; position:absolute; top:0; left:0; right:0; bottom:0; z-index:-1; background-image:linear-gradient(to right, #000000, transparent); opacity: 0.3;}
     .navigation-wrap{ position:fixed; top:0; right:0; left:0; z-index:15; background:#ffffff;
         .navigation{  display:flex; justify-content:space-between; align-items:flex-end; width:85.5%; margin:auto; padding:40px 0 16px 0; .transition();
@@ -40,7 +40,7 @@ input{ user-select:none; }
                     }
                     .login-box{  
                         .item{ position:relative; display:block; margin:-10px 0 10px; padding:10px 30px 10px 0; color:@linkNameColor; border-bottom:1px solid #BBCBD5; font:500 12px/16px @fontRoboto; text-transform:uppercase; .transition();
-                            &:before{ content: ''; position:absolute; top:0; bottom:0; right:0; display:block; width:20px; height:18px; margin:auto; background:url("../img/menu-sprite.svg") no-repeat; }
+                            &:before{ content: ''; position:absolute; top:0; bottom:0; right:0; display:block; width:20px; height:18px; margin:auto; background:url("/static/img/menu-sprite.svg") no-repeat; }
                             &.sign-in{ 
                                 &:before{ background-position:0 -18px; }
                                 &:hover:before,
@@ -91,7 +91,7 @@ input{ user-select:none; }
             
             .login{ display:flex; justify-content:flex-end; align-items:flex-end; white-space:nowrap;
                 a{ position:relative; padding-left:50px; color:@linkNameColor; font:500 12px/16px @fontRoboto; text-align:right; text-transform:uppercase; .transition();
-                    &:before{ content: ''; position:absolute; top:0; bottom:0; left:10px; display:block; width:20px; height:18px; margin:auto; background:url("../img/menu-sprite.svg") no-repeat; }
+                    &:before{ content: ''; position:absolute; top:0; bottom:0; left:10px; display:block; width:20px; height:18px; margin:auto; background:url("/static/img/menu-sprite.svg") no-repeat; }
                     &.sign-in{ 
                         &:before{ background-position:0 -18px; }
                         &:hover:before,
@@ -267,7 +267,7 @@ input{ user-select:none; }
                 .copirate{ font:bold 12px/16px 'Roboto'; text-transform:uppercase; }
                 .social-block{ display:flex; margin-top:28px; padding-bottom:30px;
                     a{ position:relative; .square(30px); margin-right:5px; border-radius:50%; background-color:#314a6b;   }
-                    a:before{ content:''; position:absolute; top:0; right:0; bottom:0; left:0; background:url("../img/sprite-footer.svg"); }
+                    a:before{ content:''; position:absolute; top:0; right:0; bottom:0; left:0; background:url("/static/img/sprite-footer.svg"); }
                     .icon1:before{ background-position:0 -30px * 0; }
                     .icon2:before{ background-position:0 -30px * 1; }
                     .icon3:before{ background-position:0 -30px * 2; }
