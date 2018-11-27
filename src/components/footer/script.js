@@ -1,13 +1,12 @@
-import regionalBlock from "./regional-block/index";
-import serviceBlock from "./service-block/index";
-import listsBlock from "./lists-block/index";
-
+import RegionalSettings from "./RegionalSettings/";
+import FooterMenu from "./FooterMenu/";
+import FooterNavigation from "./FooterNavigation/";
 
 export default {
-    name: 'footer',
+    name: "Footer",
     components: {
-        regionalBlock,
-        serviceBlock,
-        listsBlock
+        RegionalSettings,
+        FooterMenu,
+        FooterNavigation
     }
-}
+};

@@ -2,13 +2,11 @@
     <footer class="footer">
         <div class="block">
             <div class="box">
-                <regional-block/>             
-                <service-block/>
+                <regional-settings />
+                <footer-menu />
             </div>
 
-            <div class="box box-link">
-                <lists-block/>
-            </div>
+            <div class="box box-navigation"><footer-navigation /></div>
         </div>
     </footer>
 </template>

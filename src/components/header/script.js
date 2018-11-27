@@ -1,12 +1,12 @@
-import navigation from './navigation/index';
-import widget from './widget/index';
-import headerContent from './header-content/index';
+import SiteNavigation from './SiteNavigation/';
+import WidgetLastViewed from './WidgetLastViewed/';
+import HeaderContent from './HeaderContent/';
 
 export default {
-    name: 'header',
+    name: 'PageHeader',
     components: {
-        navigation,
-        widget,
-        headerContent
+        SiteNavigation,
+        WidgetLastViewed,
+        HeaderContent
     }
 }

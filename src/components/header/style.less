@@ -1,0 +1,6 @@
+.header{ position:relative; z-index:6; margin-bottom:229px; padding-top:80px;
+    &:before,
+    &:after{ content:''; position:absolute; top:0; right:0; bottom:0; left:0; }
+    &:before{ z-index:-3; background:url(/static/img/background.png) 0 0/cover no-repeat transparent; }
+    &:after{ z-index:-1; background-image:linear-gradient(to right, #000000, transparent); opacity:0.3; }
+}

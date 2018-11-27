@@ -1,9 +1,9 @@
 <template>
     <main class="main">
-       <editors/>
-       <celebrating/>
-       <question/>
-       <events/>         
+        <editors-picks />
+        <celebrating-artists />
+        <question-section />
+        <events-section />
     </main>
 </template>
 

@@ -1,7 +1,7 @@
 <template>
     <header class="header">
-        <navigation/>
-        <widget/>
+        <site-navigation/>
+        <widget-last-viewed/>
         <header-content/>    
     </header>
 </template>

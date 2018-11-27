@@ -1,14 +1,14 @@
-import editors from './editors-picks/index';
-import celebrating from './celebrating/index';
-import question from './question-block/index';
-import events from './events/index';
+import EditorsPicks from "./EditorsPicks/";
+import CelebratingArtists from "./CelebratingArtists/";
+import QuestionSection from "./QuestionSection/";
+import EventsSection from "./EventsSection/";
 
 export default {
-    name: 'main',
+    name: "Main",
     components: {
-        editors,
-        celebrating,
-        question,
-        events
+        EditorsPicks,
+        CelebratingArtists,
+        QuestionSection,
+        EventsSection
     }
-}
+};
